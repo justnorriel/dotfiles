@@ -1,0 +1,12 @@
+# Hyprland
+hypr/hyprlandd.log
+hypr/crashreports/
+hypr/shaders_cache/
+
+# Waybar
+waybar/.cache/
+
+# General
+*~
+*.tmp
+*.bak
