@@ -1,13 +1,13 @@
 # Getting dotfiles into a folder to github
 ## 1. Go to your dotfiles folder
-cd ~/dotfiles
+cd ~/dotfiles/config/
 
 ## 2. Remove the old folders (we’ll replace them with fresh ones)
 rm -rf ~/dotfiles/hypr ~/dotfiles/waybar
 
 ## 3. Copy your CURRENT live configs into the repo
-cp -r ~/.config/hypr ~/dotfiles/
-cp -r ~/.config/waybar ~/dotfiles/
+cp -r ~/.config/hypr ~/dotfiles/config/
+cp -r ~/.config/waybar ~/dotfiles/config/
 
 ## 4. (Optional but recommended) Also grab any other common ones you might want
 cp -r ~/.config/wofi   ~/dotfiles/ 2>/dev/null || true
