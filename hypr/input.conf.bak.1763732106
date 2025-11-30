@@ -3,9 +3,8 @@
 input {
   # Use multiple keyboard layouts and switch between them with Left Alt + Right Alt
   # kb_layout = us,dk,eu
-  # kb_options = altgr:backspace
-  # kb_options = caps:backspace
-  # kb_options = compose:caps # ,grp:shifts_toggle
+  kb_layout = us
+  kb_options = compose:caps # ,grp:shifts_toggle
 
   # Change speed of keyboard repeat
   repeat_rate = 40
@@ -15,7 +14,7 @@ input {
   numlock_by_default = true
 
   # Increase sensitivity for mouse/trackpad (default: 0)
-  sensitivity = 0.20
+  # sensitivity = 0.35
 
   touchpad {
     # Use natural (inverse) scrolling
@@ -36,10 +35,3 @@ windowrule = scrolltouchpad 0.2, class:com.mitchellh.ghostty
 # Enable touchpad gestures for changing workspaces
 # See https://wiki.hyprland.org/Configuring/Gestures/
 # gesture = 3, horizontal, workspace
-#
-
-# Right Alt → repeating Backspace (works everywhere, repeats when held)
-binde = , Alt_R, sendshortcut, , Backspace
-binde = , ISO_Level3_Shift, sendshortcut, , Backspace   # this line is just in case your keyboard uses the other name
-
-#bind = , Alt_R, exec, wtype -k Backspace
