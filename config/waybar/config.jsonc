@@ -6,7 +6,7 @@
   "spacing": 0,
   "height": 28,
   "margin-top": 0,
-  "width": 1550,
+  "width": 1450,
   "modules-left": [
     "custom/omarchy",
     "hyprland/workspaces",
