@@ -18,6 +18,7 @@
     "custom/screenrecording-indicator"
   ],
   "modules-right": [
+   "custom/music",
     "group/tray-expander",
    // "backlight",
     "custom/updatespacman",
@@ -250,6 +251,11 @@
     "exec": "$OMARCHY_PATH/default/waybar/indicators/screen-recording.sh",
     "signal": 8,
     "return-type": "json"
+  },
+  "custom/music": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "waybar-module-music -a 15 -t 17 -m"
   },
   "tray": {
     "icon-size": 12,
