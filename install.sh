@@ -1,4 +1,3 @@
-cat > install.sh << 'EOF'
 #!/usr/bin/env bash
 set -e
 
@@ -26,6 +25,3 @@ else
 fi
 
 echo "✅ Dotfiles installed! Reload Hyprland or log out/in"
-EOF
-
-chmod +x install.sh
