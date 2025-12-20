@@ -16,6 +16,7 @@ sudo mkdir -p /etc/keyd
 sudo nvim /etc/keyd/default.conf
 
 ## Paste this exact content
+##start
 [ids]
 *
 
@@ -30,6 +31,8 @@ backspace = escape
 # Right Alt stays normal Alt (you keep all shortcuts)
 # (optional) uncomment next line if you want Right Alt to be normal Left Alt too:
 # rightalt = leftalt
+
+##end 
 
 # 4. Apply
 sudo keyd reload
