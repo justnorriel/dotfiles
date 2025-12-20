@@ -179,7 +179,7 @@ origin  https://github.com/username/repo.git (push)
 
 ```bash
 git remote set-url origin git@github.com:username/repo.git
-```
+```https://github.com/justnorriel/dotfiles.git
 
 **Important:** Replace `username` and `repo` with your actual GitHub username and repository name.
 
