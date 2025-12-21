@@ -9,13 +9,18 @@
     "margin-top": 3,
     "margin-bottom":3,
     "width": 1440,
-    "modules-left": [ "group/main", "tray", "hyprland/workspaces", "mpris"],
+    "modules-left": [ "group/main", "tray", "hyprland/workspaces", "custom/music"],
     "modules-center": [ "clock"],
-    "modules-right": [ "custom/update", "network", "pulseaudio", "custom/power"  ],
+    "modules-right": [ "custom/update", "network", "pulseaudio",  ],
     "sway/window": {
         "max-length": 50
     },
     
+    "custom/music": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "waybar-module-music -a 15 -t 17 -m"
+  },
  
 }
 

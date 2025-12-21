@@ -8,8 +8,8 @@
     },
     
     "clock": {
-        "format": " {:%I:%M %p}", // AM PM format
-        //"format": "  {:%H:%M}",// 24H
+        //"format": " {:%I:%M %p}", // AM PM format
+        "format": " {:%H:%M}",// 24H
         "format-alt": "{:%A  |  %H:%M  |  %e %B}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
      },
@@ -117,7 +117,7 @@
  },
     
   "custom/omarchy": {
-    "format": "󰣇",
+    "format": "wanshii",
     "on-click": "omarchy-menu",
     "on-click-right": "xdg-terminal-exec",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
@@ -132,11 +132,12 @@
     "interval": 21600
   },
   
-  "custom/vicinae": {
-  "format": "",
-  "on-click": "hyprctl dispatch exec 'vicinae toggle'",
-  "interval": 0,
-  "tooltip-format": "Vicinae\n\nSuper + Space"
-  },
+ // "custom/vicinae": {
+ // "format": "",
+ // "on-click": "hyprctl dispatch exec 'vicinae toggle'",
+ // "interval": 0,
+ //  "tooltip-format": "Vicinae\n\nSuper + Space"
+ //  },
 
+  
 }
