@@ -139,5 +139,12 @@
  //  "tooltip-format": "Vicinae\n\nSuper + Space"
  //  },
 
+   "bluetooth": {
+    "format": "",
+    "format-disabled": "󰂲",
+    "format-connected": "󰂱",
+    "tooltip-format": "Devices connected: {num_connections}",
+    "on-click": "omarchy-launch-bluetooth"
+  },
   
 }

@@ -11,7 +11,7 @@
     "width": 1440,
     "modules-left": [ "group/main", "tray", "hyprland/workspaces", "custom/music"],
     "modules-center": [ "clock"],
-    "modules-right": [ "custom/update", "network", "pulseaudio",  ],
+    "modules-right": [ "custom/update", "bluetooth", "network", "pulseaudio",  ],
     "sway/window": {
         "max-length": 50
     },
