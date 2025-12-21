@@ -24,4 +24,4 @@ else
     rsync -av --delete config/ "$HOME/.config/"
 fi
 
-echo "✅ Dotfiles installed! Reload Hyprland or log out/in"
+echo "✅ Dotfiles installed! Reload Hyprland with hyprctl reload"
